@@ -1,5 +1,5 @@
 import React from "react";
-import TableComponent from "./components/Table";
+import TableComponent from "./components/TableComponent";
 
 
 export interface IUserData {
