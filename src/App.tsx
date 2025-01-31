@@ -1,5 +1,5 @@
 import React from "react";
-import TableComponent from "./components/TableComponent";
+import Table from "./components/Table";
 
 
 export interface IUserData {
@@ -26,7 +26,7 @@ const App: React.FC = () => {
   return (
     <div>
       <h1>User Table</h1>
-      <TableComponent data={data} />
+      <Table data={data} />
     </div>
   );
 };
